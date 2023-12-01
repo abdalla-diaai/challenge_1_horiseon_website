@@ -16,8 +16,6 @@ body {
     background-color: #d9dcd6;
 }
 
-
-
 /* changed header div to nav tag */
 nav {
     padding-top: 15px;
@@ -45,7 +43,6 @@ h2 {
     position: relative;
     left: 350px;
 }
-
 
 /* to handle heading of images floating on right */
 .h2-left {
@@ -135,6 +132,7 @@ li {
     color: #ffffff;
 }
 
+/* content section images */
 #top {
     position: relative;
     top: -125px;
@@ -176,7 +174,6 @@ li {
 }
 
 /* changed div to footer */
-
 footer {
     padding: 30px;
     clear: both;
