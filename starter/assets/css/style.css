@@ -15,7 +15,8 @@ header {
     color: #ffffff;
 }
 
-header div {
+/* changed header div to nav tag */
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -28,11 +29,29 @@ h1 {
     font-size: 48px;
     display: inline-block;
 }
+
 /* removed all classes for h2 */
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* to handle heading of images floating on left */
+.h2-right {
+    width: 50%;
+    position: relative;
+    left: 350px;
+}
+
+
+/* to handle heading of images floating on right */
+.h2-left {
+    width: 50%;
+    position: relative;
+    right: -20px;
+    max-width: fit-content;
+}
+
 
 /* removed all classes associated with h3 */
 h3 {
@@ -41,23 +60,44 @@ h3 {
     color: #ffffff;
 }
 
+/* specs of any paragraph */
 p {
     font-size: 16px;
     color: #ffffff;
     margin-bottom: 32px;
-    text-align: center;
+    text-align: justify;
 }
 
+/* to handle paragraph of images floating on right */
+.p-right {
+    width: 65%;
+    position: relative;
+    left: 349px;
+    top: 0px;
+    text-align: justify;
+}
+
+/* to handle paragraph of images floating on left */
+.p-left {
+    width: 73%;
+    position: relative;
+    right: -20px;
+    top: 0px;
+    text-align: justify;
+}
+
+/* specific colour for heading span */
 span {
     color: #d9dcd6;
 }
 
+/* specific colour for links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* created new id for header list */
+/* created new id for header list, only position */
 ul {
     list-style-type: none;
 }
@@ -76,23 +116,14 @@ li {
     background-position: center;
 }
 
-.float-left {
-    margin-right: 25px;
-    float: left;
-    max-height: 200px;
-    }
-
-.float-right {
-    margin-left: 25px;
-    float: right;
-    max-height: 200px;  
-}
+/* left section of page */
 .content {
-    width: 75%;
+    width: 76%;
     height: 100%;
     display: inline-block;
     margin-left: 20px;
 }
+
 .content div {
     margin-bottom: 20px;
     padding: 20px;
@@ -102,9 +133,31 @@ li {
     color: #ffffff;
 }
 
+#top {
+    position: relative;
+    top: -125px;
+    left: 25px;
+    max-height: 200px;
+    }
+
+    #middle {
+        position: relative;
+        top: -125px;
+        left: 1083px;
+        max-height: 200px;
+        }
+
+#bottom {
+    position: relative;
+    top: -125px;
+    left: 25px;
+    max-height: 200px;
+}
+
+/* right section of page */
 .benefits {
     margin-right: 20px;
-    padding: 20px;
+    padding: 10px;
     float: right;
     clear: both;
     width: 20%;
@@ -119,6 +172,8 @@ li {
     max-width: 150px;
 }
 
+/* changed div to footer */
+
 footer {
     padding: 30px;
     clear: both;
@@ -126,41 +181,14 @@ footer {
     text-align: center;
 }
 
+/* heading in footer */
 footer h2 {
     font-size: 20px;
-}
-
-footer p {
     color: black;
 }
 
-.h2-right {
-    width: 50%;
-    position: absolute;
-    left: 350px;
+/* footer paragraph */
+footer p {
+    color: black;
+    text-align: center;
 }
-
-.p-right {
-    width: 50%;
-    position: absolute;
-    left: 350px;
-    margin-top: 50px;
-    text-align: justify;
-}
-.h2-left {
-    width: 50%;
-    position: absolute;
-    right: 915px;
-}
-.p-left {
-    width: 50%;
-    position: absolute;
-    right: 915px;
-    margin-top: 50px;
-    text-align: justify;
-}
-
-div {
-    resize: both;
-    overflow: auto;
-  }
