@@ -1,11 +1,8 @@
+/* css reset */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
-
-body {
-    background-color: #d9dcd6;
 }
 
 header {
@@ -13,6 +10,10 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+}
+
+body {
+    background-color: #d9dcd6;
 }
 
 /* changed header div to nav tag */
@@ -43,13 +44,11 @@ h2 {
     left: 350px;
 }
 
-
 /* to handle heading of images floating on right */
 .h2-left {
     width: 50%;
     position: relative;
     right: -20px;
-    max-width: fit-content;
 }
 
 
@@ -121,7 +120,7 @@ li {
     width: 76%;
     height: 100%;
     display: inline-block;
-    margin-left: 20px;
+    margin: 20px;
 }
 
 .content div {
@@ -133,19 +132,21 @@ li {
     color: #ffffff;
 }
 
+/* content section images */
 #top {
     position: relative;
     top: -125px;
     left: 25px;
     max-height: 200px;
-    }
+}
 
-    #middle {
-        position: relative;
-        top: -125px;
-        left: 1083px;
-        max-height: 200px;
-        }
+#middle {
+    position: relative;
+    top: -125px;
+    left: 1083px;
+    max-height: 200px;
+    display: inline-block;
+}
 
 #bottom {
     position: relative;
@@ -173,7 +174,6 @@ li {
 }
 
 /* changed div to footer */
-
 footer {
     padding: 30px;
     clear: both;
