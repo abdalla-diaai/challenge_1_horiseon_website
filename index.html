@@ -2,134 +2,130 @@
 <html lang="en-gb">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <!-- although viewport meta tag, display not working with resizing -->
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- added title for the page as the company name -->
     <title>Horiseon</title>
 </head>
 
 <body>
-    <!-- convert div to header  -->
-    <header>
-        <h1>Hori<span>seo</span>n</h1>
-        <nav class="external-links">
-            <ul>
-                <li>
-                    <a target="_blank" href="#search-engine-optimization">Search Engine Optimization</a>
-                </li>
-                <li>
-                    <a target="_blank" href="#online-reputation-management">Online Reputation Management</a>
-                </li>
-                <li>
-                    <a target="_blank" href="#social-media-marketing">Social Media Marketing</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <!-- moved image link to html file -->
-    <main>
-        <figure>
-            <img src="assets/images/digital-marketing-meeting.jpg" id="hero" alt="Horiseon Employees In a Meeting">
-        </figure>
+<!-- convert div to header  -->
+<header>
+    <h1>Hori<span>seo</span>n</h1>
+    <nav class="external-links">
+        <ul>
+            <li>
+                <a target="_blank" href="#search-engine-optimization">Search Engine Optimization</a>
+            </li>
+            <li>
+                <a target="_blank" href="#online-reputation-management">Online Reputation Management</a>
+            </li>
+            <li>
+                <a target="_blank" href="#social-media-marketing">Social Media Marketing</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<!-- surrounded main contents of page by main tag -->
+<main>
+    <!-- moved image link to html file and surrounded image by figure tag -->
+    <figure>
+        <img src="assets/images/digital-marketing-meeting.jpg" id="hero" alt="Horiseon Employees In a Meeting">
+    </figure>
 
-        <section class="content">
-            <div>
-
-                <h2 class="h2-right">Search Engine Optimization</h2>
-                <!-- add alt text to all images -->
-                <p class="p-right">
-                    The dominance of mobile internet use means that users are searching for the right business as they
-                    travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase
+    <section class="content">
+        <div class="card">
+            <section class="right">
+                <h2>Search Engine Optimization</h2>
+                <p>
+                    The dominance of mobile internet use means that users are searching for the right business as
+                    they
+                    travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to
+                    increase
                     your visibility and find the right customers for your business.
                 </p>
+            </section>
+            <!-- add alt text to all images -->
+            <img src="assets/images/search-engine-optimization.jpg" class="float-left"
+                 alt="Search Engine Optimization">
+        </div>
 
-
-                <figure>
-                    <img id="top" src="assets/images/search-engine-optimization.jpg" class="float-left"
-                        alt="Search Engine Optimization">
-                </figure>
-            </div>
-
-            <div>
-                <h2 class="h2-left">Online Reputation Management</h2>
-                <!-- add alt text to all images -->
-
-
+        <div class="card">
+            <section class="left">
+                <h2>Online Reputation Management</h2>
                 <p class="p-left">
-                    The web is full of opinions, and some of these can be negative. Social media allows anyone with an
+                    The web is full of opinions, and some of these can be negative. Social media allows anyone with
+                    an
                     internet connection to say whatever they want about your business. Online Reputation Management
                     gives
                     you the control over what potential customers see when they search for your business.
                 </p>
-                <figure>
-                    <img id="middle" src="assets/images/online-reputation-management.jpg" class="float-right"
-                        alt="Online Reputation Management">
-                </figure>
-            </div>
+            </section>
+            <!-- add alt text to all images -->
+            <img src="assets/images/online-reputation-management.jpg" class="float-right"
+                 alt="Online Reputation Management">
+        </div>
 
-
-            <div>
-                <h2 class="h2-right">Social Media Marketing</h2>
-                <!-- add alt text to all images -->
-
-                <p class="p-right">
-                    Social media continues to have a sizable influence on buying habits. Social media marketing helps
+        <div class="card">
+            <section class="right">
+                <h2>Social Media Marketing</h2>
+                <p>
+                    Social media continues to have a sizable influence on buying habits. Social media marketing
+                    helps
                     you
-                    determine which platforms are suited to your brand, using analytics to find the right markets and
+                    determine which platforms are suited to your brand, using analytics to find the right markets
+                    and
                     increase your lead generation.
                 </p>
-                <figure>
-                    <img id="bottom" src="assets/images/social-media-marketing.jpg" class="float-left"
-                        alt="Social Media Marketing">
-                </figure>
+            </section>
+            <!-- add alt text to all images -->
+            <img src="assets/images/social-media-marketing.jpg" class="float-left" alt="Social Media Marketing">
+        </div>
 
-            </div>
-
-        </section>
-        <section class="benefits">
-            <div>
-                <h3>Lead Generation</h3>
-                <!-- add alt text to all images -->
-                <img src="assets/images/lead-generation.png" alt="Lead Generation Icon">
-                <p>
-                    Inbound strategies for lead generation require less work for your business, bringing customers
-                    directly
-                    to your website.
-                </p>
-            </div>
-            <div>
-                <h3>Brand Awareness</h3>
-                <!-- add alt text to all images -->
-                <img src="assets/images/brand-awareness.png" alt="Brand Awareness Icon">
-                <p>
-                    Users find your business through paid and organic searches, increasing the search ranking and
-                    visibility
-                    for your business.
-                </p>
-            </div>
-            <div>
-                <h3>Cost Management</h3>
-                <!-- add alt text to all images -->
-                <img src="assets/images/cost-management.png" alt="Cost Managment Icon">
-                <p>
-                    As the search ranking for your business increases, your advertising costs decrease, and you no
-                    longer
-                    need to advertise your page.
-                </p>
-            </div>
-        </section>
-    </main>
-
-    <!-- changed div to footer -->
-    <footer>
-        <h2>Made with ❤️️ by Horiseon</h2>
-        <p>
-            © 2019 Horiseon Social Solution Services, Inc.
-        </p>
-    </footer>
-
-
+    </section>
+    <section class="benefits">
+        <div>
+            <h3>Lead Generation</h3>
+            <!-- add alt text to all images -->
+            <img src="assets/images/lead-generation.png" alt="Lead Generation Icon">
+            <p>
+                Inbound strategies for lead generation require less work for your business, bringing customers
+                directly
+                to your website.
+            </p>
+        </div>
+        <div>
+            <h3>Brand Awareness</h3>
+            <!-- add alt text to all images -->
+            <img src="assets/images/brand-awareness.png" alt="Brand Awareness Icon">
+            <p>
+                Users find your business through paid and organic searches, increasing the search ranking and
+                visibility
+                for your business.
+            </p>
+        </div>
+        <div>
+            <h3>Cost Management</h3>
+            <!-- add alt text to all images -->
+            <img src="assets/images/cost-management.png" alt="Cost Managment Icon">
+            <p>
+                As the search ranking for your business increases, your advertising costs decrease, and you no
+                longer
+                need to advertise your page.
+            </p>
+        </div>
+    </section>
+</main>
+<!-- changed div to footer -->
+<footer>
+    <h2>Made with ❤️️ by Horiseon</h2>
+    <p>
+        © 2019 Horiseon Social Solution Services, Inc.
+    </p>
+</footer>
 </body>
 
 </html>
